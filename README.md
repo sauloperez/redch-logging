@@ -8,7 +8,8 @@ Redch-logging uses [logstash](http://logstash.net/) to manage events and logs. I
 First of all, install logstash and elasticsearch in Mac OS X via Homebrew.
 
 Let's start with logstash:
-    
+
+    brew update
     brew install logstash
 
 and then install elasticsearch version 0.90.3 (as the [logstash documentation](http://logstash.net/docs/1.2.2/tutorials/getting-started-centralized) states).
